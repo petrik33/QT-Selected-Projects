@@ -9,6 +9,8 @@ for outsorce.
 
 ## Usage
 
+Each repository contains a screenshot of the executed app
+
 Source is open and copyright free
 
 Author: Tsimafei Petrykevich
