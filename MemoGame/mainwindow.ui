@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>586</width>
+    <height>386</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="horizontalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>110</y>
+      <width>251</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="gameStartHLayout">
+     <item>
+      <layout class="QVBoxLayout" name="startRandomVLayout">
+       <item>
+        <widget class="QLineEdit" name="leditRandomSeed"/>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pbStartRandom">
+         <property name="text">
+          <string>Start Random</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pbStartFile">
+       <property name="text">
+        <string>Start File</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>586</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuMenu">
+    <property name="title">
+     <string>Menu</string>
+    </property>
+    <widget class="QMenu" name="menuSettings">
+     <property name="title">
+      <string>Settings</string>
+     </property>
+     <addaction name="actionShapesColors"/>
+     <addaction name="actionShapesUsed"/>
+     <addaction name="actionGraphics"/>
+    </widget>
+    <widget class="QMenu" name="menuFile">
+     <property name="title">
+      <string>File</string>
+     </property>
+     <addaction name="actionRead"/>
+     <addaction name="actionChoose"/>
+    </widget>
+    <addaction name="menuFile"/>
+    <addaction name="menuSettings"/>
+    <addaction name="separator"/>
+    <addaction name="actionExit"/>
+   </widget>
+   <addaction name="menuMenu"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionExit">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+  <action name="actionShapesColors">
+   <property name="text">
+    <string>Shapes Colors...</string>
+   </property>
+  </action>
+  <action name="actionShapesUsed">
+   <property name="text">
+    <string>Shapes Used...</string>
+   </property>
+  </action>
+  <action name="actionGraphics">
+   <property name="text">
+    <string>Graphics...</string>
+   </property>
+  </action>
+  <action name="actionRead">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Read</string>
+   </property>
+  </action>
+  <action name="actionChoose">
+   <property name="text">
+    <string>Choose</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

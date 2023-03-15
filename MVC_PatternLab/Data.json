@@ -1,0 +1,22 @@
+[
+    {
+        "authors": [
+            "Me",
+            "You"
+        ],
+        "name": "Some Book",
+        "number": 1001,
+        "pages": 500,
+        "year": 1920
+    },
+    {
+        "authors": [
+            "You",
+            "Hayam Omar"
+        ],
+        "name": "Some Other Book",
+        "number": 1002,
+        "pages": 300,
+        "year": 1930
+    }
+]

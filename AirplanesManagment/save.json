@@ -1,0 +1,70 @@
+[
+    {
+        "Arrival": "21.05.2022 21:00",
+        "Departure": "21.05.2022 18:00",
+        "Destination": "Minsk",
+        "Number": "1312",
+        "Passengers": [
+            {
+                "name": "Petrikevich Timofey Yurievich",
+                "passport id": "MN313133"
+            },
+            {
+                "name": "Petrikevich Vladislav Yurievich",
+                "passport id": "KC111222"
+            },
+            {
+                "name": "Delete myself next time",
+                "passport id": "20202020"
+            },
+            {
+                "name": "Saved Boy",
+                "passport id": "33"
+            },
+            {
+                "name": "Arseniy",
+                "passport id": "MN2020202"
+            }
+        ]
+    },
+    {
+        "Arrival": "12.06.2022 10:00",
+        "Departure": "11.06.2022 20:00",
+        "Destination": "London, Heathrow",
+        "Number": "3333",
+        "Passengers": [
+            {
+                "name": "Prokopenko Arseniy Pavlovich",
+                "passport id": "MN202020"
+            },
+            {
+                "name": "Vergeenko Alexey Mihailovich",
+                "passport id": "MP407180"
+            }
+        ]
+    },
+    {
+        "Arrival": "20.05.2022 22:22",
+        "Departure": "20.05.2022 01:11",
+        "Destination": "Heathen",
+        "Number": "Flight91",
+        "Passengers": [
+            {
+                "name": "Masego",
+                "passport id": "Got his one"
+            }
+        ]
+    },
+    {
+        "Arrival": "11.06.2022 04:00",
+        "Departure": "03.06.2022 10:10",
+        "Destination": "Madrid",
+        "Number": "2022",
+        "Passengers": [
+            {
+                "name": "Pilot",
+                "passport id": "#303030"
+            }
+        ]
+    }
+]

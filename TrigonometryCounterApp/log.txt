@@ -1,0 +1,9 @@
+1.5708 Radians or 90 degrees
+0 Radians or 0 degrees
+1.5708 Radians or 90 degrees
+0 Radians or 0 degrees
+0.523599 Radians or 30 degrees
+0.785398 Radians or 45 degrees
+0.785398 Radians or 45 degrees
+0 Radians or 0 degrees
+1.5708 Radians or 90 degrees

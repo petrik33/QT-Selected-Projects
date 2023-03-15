@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>graphicsSettingsDialog</class>
+ <widget class="QDialog" name="graphicsSettingsDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>309</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="modal">
+   <bool>true</bool>
+  </property>
+  <layout class="QFormLayout" name="formLayout">
+   <item row="0" column="0">
+    <widget class="QLabel" name="lbPenWidth">
+     <property name="text">
+      <string>Pen Width</string>
+     </property>
+     <property name="buddy">
+      <cstring>spinboxPenWidth</cstring>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QSpinBox" name="spinboxPenWidth">
+     <property name="minimum">
+      <number>1</number>
+     </property>
+     <property name="maximum">
+      <number>20</number>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QLabel" name="lbBrushStyle">
+     <property name="text">
+      <string>Brush Style</string>
+     </property>
+     <property name="buddy">
+      <cstring>cmboxBrushStyle</cstring>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <widget class="QComboBox" name="cmboxBrushStyle"/>
+   </item>
+   <item row="2" column="0">
+    <widget class="QLabel" name="lbPenStyle">
+     <property name="text">
+      <string>Pen Style</string>
+     </property>
+     <property name="buddy">
+      <cstring>cmboxPenStyle</cstring>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="1">
+    <widget class="QComboBox" name="cmboxPenStyle"/>
+   </item>
+   <item row="3" column="0">
+    <widget class="QLabel" name="lbPenJoin">
+     <property name="text">
+      <string>Pen Join</string>
+     </property>
+     <property name="buddy">
+      <cstring>cmboxPenJoin</cstring>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="1">
+    <widget class="QComboBox" name="cmboxPenJoin"/>
+   </item>
+   <item row="4" column="0">
+    <widget class="QLabel" name="lbPenCap">
+     <property name="text">
+      <string>Pen Cap</string>
+     </property>
+     <property name="buddy">
+      <cstring>cmboxPenCap</cstring>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="1">
+    <widget class="QComboBox" name="cmboxPenCap"/>
+   </item>
+   <item row="5" column="0">
+    <widget class="QDialogButtonBox" name="graphicsSettingsBBox">
+     <property name="standardButtons">
+      <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

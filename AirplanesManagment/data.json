@@ -1,0 +1,23 @@
+[
+    {
+        "Number" : "1312",
+        "Destination" : "Minsk",
+        "Passengers" : [
+            {"name" : "Petrikevich Timofey Yurievich", "passport id": "MN313133"},
+            {"name" : "Petrikevich Vladislav Yurievich", "passport id": "KC111222"}
+        ],
+        "Departure" : "21.05.2022 18:00",
+        "Arrival" : "21.05.2022 21:00"
+    },
+    {
+        "Number" : "3333",
+        "Destination" : "London, Heathrow",
+        "Passengers" : [
+            {"name" : "Prokopenko Arseniy Pavlovich", "passport id": "MN202020"},
+            {"name" : "Vergeenko Alexey Mihailovich", "passport id": "MP407180"},
+            {"name" : "Vergeenko Nikita Alexeyevich", "passport id": "KC201212"}
+        ],
+        "Departure" : "11.06.2022 20:00",
+        "Arrival" : "12.06.2022 10:00"
+    }
+]
