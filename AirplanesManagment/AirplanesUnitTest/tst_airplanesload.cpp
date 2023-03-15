@@ -1,35 +1,35 @@
-#include <QtTest>
+//#include <QtTest/>
 
-// add necessary includes here
+//// add necessary includes here
 
-class AirplanesLoad : public QObject
-{
-    Q_OBJECT
+//class AirplanesLoad : public QObject
+//{
+//    Q_OBJECT
 
-public:
-    AirplanesLoad();
-    ~AirplanesLoad();
+//public:
+//    AirplanesLoad();
+//    ~AirplanesLoad();
 
-private slots:
-    void test_case1();
+//private slots:
+//    void test_case1();
 
-};
+//};
 
-AirplanesLoad::AirplanesLoad()
-{
+//AirplanesLoad::AirplanesLoad()
+//{
 
-}
+//}
 
-AirplanesLoad::~AirplanesLoad()
-{
+//AirplanesLoad::~AirplanesLoad()
+//{
 
-}
+//}
 
-void AirplanesLoad::test_case1()
-{
+//void AirplanesLoad::test_case1()
+//{
 
-}
+//}
 
-QTEST_APPLESS_MAIN(AirplanesLoad)
+//QTEST_APPLESS_MAIN(AirplanesLoad)
 
-#include "tst_airplanesload.moc"
+//#include "tst_airplanesload.moc"

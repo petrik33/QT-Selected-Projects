@@ -21,7 +21,7 @@
 #include <passengerdialog.h>
 #include <QMessageBox>
 #include <QFileDialog>
-#include <airplanesunitest.h>
+//#include <airplanesunitest.h>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
